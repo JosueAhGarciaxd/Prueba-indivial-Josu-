@@ -39,4 +39,8 @@ class MainActivity : AppCompatActivity() {
     fun onClick(view: View){
         Toast.makeText(this, "Josué Alejandro Hernández García", Toast.LENGTH_LONG).show()
     }
+
+    fun contactanos(view: View){
+        Toast.makeText(this, "20230098@ricaldone.edu.sv", Toast.LENGTH_LONG).show()
+    }
 }
