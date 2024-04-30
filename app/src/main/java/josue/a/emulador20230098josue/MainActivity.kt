@@ -1,6 +1,9 @@
 package josue.a.emulador20230098josue
 
 import android.os.Bundle
+import android.service.autofill.OnClickAction
+import android.view.View
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -31,8 +34,9 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
 
-        
-
+    fun onClick(view: View){
+        Toast.makeText(this, "Josué Alejandro Hernández García", Toast.LENGTH_LONG).show()
     }
 }
